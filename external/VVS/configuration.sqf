@@ -9,12 +9,16 @@ VVS_Premade_List = false;
 ZONT_fnc_filterVVS = {
   switch(_this) do {
   	case "HQ": { VVS_HQ + VVS_Wheeled };
+  	case "BTR": { VVS_BTR };
+    case "Turel": { VVS_Turel };
+    case "RMO": { VVS_RMO };
   	case "BMO": { VVS_BMO };
-  	case "542": { VVS_542 };
   	case "Wheeled": { VVS_Wheeled };
   	case "SWheeled": { VVS_Wheeled_Spec };
+  	case "Tanks": { VVS_Tanks };
   	case "TV": { VVS_TV };
-  	case "ISIS": { VVS_ISIS };
+    case "BTR1": { VVS_BTR1 };
+    case "Turel1": { VVS_Turel1 };
 
   	default {[]};
   };
@@ -40,38 +44,75 @@ VVS_HQ = [
 VVS_Wheeled = [
 ];
 
+VVS_Tanks = [
+  "LIB_StuG_III_G_w",
+  "LIB_PzKpfwIV_H_w",
+  "LIB_PzKpfwV_w",
+  "LIB_PzKpfwVI_B_w",
+  "LIB_GER_PzKpfwVI_E_sPA503_Winter",
+  "LIB_FlakPanzerIV_Wirbelwind_w_DLV"
+
+];
+
 VVS_TV = [
+  "LIB_T34_85_w",
+  "LIB_SU85_w",
+  "LIB_JS2_43_w",
+  "LIB_T34_76_w"
 
-];
-
-VVS_542 = [
-
-];
-
-VVS_Wheeled_Spec = [
-  "B_LSV_01_unarmed_F",
-  "B_Quadbike_01_F",
-  "rhsusf_mrzr4_d",
-  "LOP_AFR_OPF_Offroad"
 ];
 
 VVS_BMO = [
-  "RHS_Ural_Fuel_MSV_01",
-  "RHS_Ural_Repair_MSV_01",
-  "rhs_gaz66_ammo_msv",
-  "rhs_kamaz5350_msv",
-  "rhs_kamaz5350_open_msv",
-  "rhs_tigr_sts_3camo_msv",
-  "rhs_tigr_m_3camo_msv",
-  "rhs_tigr_3camo_msv"
+  "LIB_Willys_MB_Hood_w",
+  "LIB_Willys_MB_Ambulance_w",
+  "LIB_Zis5v_w",
+  "LIB_Zis6_parm_w",
+  "LIB_Zis5v_med_w",
+  "LIB_Zis5v_fuel_w",
+  "LIB_Willys_MB_Unarmed_base",
+  "LIB_Zis5v_61K_DLV"
+
 ];
 
-VVS_ISIS = [
-  "LOP_ISTS_Landrover_SPG9",
-  "LOP_ISTS_Landrover",
-  "LOP_ISTS_Nissan_PKM",
-  "LOP_AM_UAZ_AGS",
-  "LOP_ISTS_Offroad_M2"
+VVS_RMO = [
+  "LIB_SdKfz_7_w",
+  "LIB_OpelBlitz_Ambulance_w",
+  "LIB_OpelBlitz_Parm_w",
+  "LIB_Kfz1_MG42",
+  "LIB_GER_KubelGreyHood",
+  "LIB_GER_Kubel",
+  "LIB_GER_Kubel_Medical",
+  "LIB_GER_KubelBeigeHood_Medical",
+  "LIB_ger_opelblitz_medical",
+  "CSA38_opelblitz3_W",
+  "CSA38_opelblitz2_W",
+  "CSA38_opelblitz_W",
+  "CSA38_opelblitz4_W",
+  "CSA38_opelblitz5_W",
+  "CSA38_opelblitz3_W"
+];
+
+VVS_BTR = [
+  "LIB_SdKfz_7_AA_w",
+  "LIB_SdKfz251_FFV_w",
+  "LIB_Sdkfz251_w",
+  "Lib_ger_SdKfz251IFL_medical"
+];
+
+VVS_Turel = [
+  "LIB_Pak40_w",
+  "LIB_leFH18",
+  "LIB_leFH18_AT"
+];
+
+VVVS_BTR1 = [
+  "LIB_SOV_M3_Halftrack_w"
+];
+
+VVS_Turel1 = [
+  "NORTH_SOV_45mm1937",
+  "NORTH_SOV_W_76mm1936",
+  "LIB_Zis3_w"
 ];
 
 

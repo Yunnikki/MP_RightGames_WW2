@@ -1,6 +1,54 @@
 _this disableAI "move"; _this disableAI "radioprotocol"; _this disableAI "autocombat"; _this disableAI "weaponaim";
 
 _this addAction [
+  "Запрос Техники РМО",
+  VVS_fnc_openVVS,
+  [VVS_west_Land,"RMO"],
+  6,
+  true,
+  true,
+  "",
+  "true",
+  5
+];
+
+_this addAction [
+  "Запрос БТР",
+  VVS_fnc_openVVS,
+  [VVS_west_Land,"BTR"],
+  6,
+  true,
+  true,
+  "",
+  "true",
+  5
+];
+
+_this addAction [
+  "Запрос Турелей",
+  VVS_fnc_openVVS,
+  [VVS_west_Land,"Turel"],
+  6,
+  true,
+  true,
+  "",
+  "true",
+  5
+];
+
+_this addAction [
+  "Запрос Танков",
+  VVS_fnc_openVVS,
+  [VVS_west_Land,"Tanks"],
+  6,
+  true,
+  true,
+  "",
+  "[['T501', 'SS5']] call ZONT_fnc_checkRole",
+  5
+];
+
+_this addAction [
   "Запрос Техники БМО",
   VVS_fnc_openVVS,
   [VVS_east_Land,"BMO"],
@@ -13,19 +61,31 @@ _this addAction [
 ];
 
 _this addAction [
-  "Запрос специальной колесной техники",
+  "Запрос Турелей",
   VVS_fnc_openVVS,
-  [VVS_east_Land,"SWheeled"],
+  [VVS_east_Land,"Turel1"],
   6,
   true,
   true,
   "",
-  "[['SSO', 'FSB']] call ZONT_fnc_checkRole",
+  "true",
   5
 ];
 
 _this addAction [
-  "Запрос Техники ТВ",
+  "Запрос БТРов",
+  VVS_fnc_openVVS,
+  [VVS_east_Land,"BTR1"],
+  6,
+  true,
+  true,
+  "",
+  "true",
+  5
+];
+
+_this addAction [
+  "Запрос Тяжелой техники",
   VVS_fnc_openVVS,
   [VVS_east_Land,"TV"],
   6,
@@ -33,17 +93,5 @@ _this addAction [
   true,
   "",
   "[['TV']] call ZONT_fnc_checkRole",
-  5
-];
-
-_this addAction [
-  "Запрос Техники 542 ОДШБ МП",
-  VVS_fnc_openVVS,
-  [VVS_east_Land,"542"],
-  6,
-  true,
-  true,
-  "",
-  "[['C542']] call ZONT_fnc_checkRole",
   5
 ];

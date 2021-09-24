@@ -2,8 +2,8 @@
 class CfgRoles {
   class Zeus         { id=1 ; hide=true; };
 
-  class HQ           { id=10; name="Штабное подразделение (ШТАБ)"; };
-  class Civilian     { id=11; name="Гражданский"; free=true; };
+  class HQ           { id=20; name="Штабное подразделение (ШТАБ)"; };
+  class Civilian     { id=21; name="Дезертир"; free=true; };
   class C417         { id=90; name="417 Panzergrenader-Regiment"; };
   class T501         { id=91; name="501 Schwere Panzer-Abteilung"; };
   class Med          { id=92; name="Medizinischer Zug"; };
@@ -11,6 +11,7 @@ class CfgRoles {
   class SS9          { id=94; name="9 SS-Panzergrenadier-Regiment “Deutschland”"; };
   class SS5          { id=95; name="5 SS-Panzerdivision “Wikinger”"; };
   class F4           { id=96; name="4 Flugkörper"; };
+  class RMO          { id=82; name="Logistikunternehmen"; };
   class RONA         { id=97; name="РОНА"; };
   class C569         { id=80; name="569-й стрелковый полк"; };
   class NKVD         { id=81; name="НКВД СССР"; };
