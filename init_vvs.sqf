@@ -8,7 +8,7 @@ _this addAction [
   true,
   true,
   "",
-  "true",
+  "[['T501', 'C417', 'Med', 'F4', 'RONA', 'LFT', 'SS5']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -20,7 +20,7 @@ _this addAction [
   true,
   true,
   "",
-  "true",
+  "[['T501', 'C417', 'Med', 'F4', 'RONA', 'LFT', 'SS5']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -32,7 +32,7 @@ _this addAction [
   true,
   true,
   "",
-  "true",
+  "[['T501', 'C417', 'Med', 'F4', 'RONA', 'SS5']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -56,7 +56,7 @@ _this addAction [
   true,
   true,
   "",
-  "true",
+  "[['C569', 'NKVD', 'MR', 'TV', 'VVS']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -68,7 +68,7 @@ _this addAction [
   true,
   true,
   "",
-  "true",
+  "[['C569', 'NKVD', 'MR', 'TV', 'VVS']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -80,7 +80,7 @@ _this addAction [
   true,
   true,
   "",
-  "true",
+  "[['C569', 'NKVD', 'MR', 'TV', 'VVS']] call ZONT_fnc_checkRole",
   5
 ];
 

@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=8463;
+		nextID=8466;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=499;
+		nextID=520;
 	};
 	class Camera
 	{
-		pos[]={4727.9956,86.423798,2528.6533};
-		dir[]={0.24182169,-0.60757518,0.7565546};
-		up[]={0.18498279,0.79426211,0.57873052};
-		aside[]={0.95252502,0,-0.30446076};
+		pos[]={4823.2778,90.38382,2350.915};
+		dir[]={0.56202328,-0.59608054,0.57343251};
+		up[]={0.41723704,0.80292243,0.42570728};
+		aside[]={0.71417838,-2.2619497e-007,-0.69996816};
 	};
 };
 binarizationWanted=0;
@@ -1331,7 +1331,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=626;
+		items=629;
 		class Item0
 		{
 			dataType="Layer";
@@ -5393,8 +5393,8 @@ class Mission
 						};
 						class Attribute2
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -5403,10 +5403,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="ff_steiner_01";
+									value=0;
 								};
 							};
 						};
@@ -5450,8 +5450,8 @@ class Mission
 						};
 						class Attribute5
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -5460,10 +5460,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="ff_steiner_01";
 								};
 							};
 						};
@@ -58626,6 +58626,39 @@ class Mission
 			{
 			};
 			id=8411;
+		};
+		class Item626
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={4886.707,39.466194,2405.3169};
+				angles[]={6.2751846,0,0.0080009829};
+			};
+			title="Z: На всю территорию аэродрома триггер";
+			id=8463;
+		};
+		class Item627
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={12112.13,189.43512,12712.115};
+				angles[]={0.013327583,0,0};
+			};
+			title="Z: На всю территорию аэродрома триггер";
+			id=8464;
+		};
+		class Item628
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14110.088,49.619694,2741.7209};
+				angles[]={6.1795578,0,0.0080009829};
+			};
+			title="зачем я его поставил? я не знаю";
+			id=8465;
 		};
 	};
 };
